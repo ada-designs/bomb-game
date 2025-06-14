@@ -185,7 +185,7 @@ export default function App() {
             ", "
           )} 📦`}</p>
 
-          <div className=" w-screen flex justify-center items-center gap-10 p-10 border-t-2 border-white">
+          <div className=" w-screen flex justify-center items-center gap-10 pt-10  border-t-2 border-white">
             <p className="text-3xl text-center">
               Try with different amount of bombs:
             </p>
