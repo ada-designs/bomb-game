@@ -170,7 +170,7 @@ export default function App() {
 
       {/* Showing the button on game lost */}
       {gameOver && (
-        <div className="flex flex-col mt-10 gap-10 items-center w-screen">
+        <div className="flex flex-col  gap-10 items-center w-screen">
           <h2 className="text-[48px] font-bold ">You lost!</h2>
           <button
             className="w-[400px]"
