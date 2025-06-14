@@ -7,7 +7,7 @@ const bombCountOptions = Array.from({ length: 7 }, (_, i) => i + 1);
 
 export default function App() {
   const [gameOver, setGameOver] = useState(false);
-  const [gameWon, setGameWon] = useState(true);
+  const [gameWon, setGameWon] = useState(false);
 
   // How many bombs we want to play with
   const [bombCount, setBombCount] = useState(3);
